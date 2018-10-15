@@ -5,7 +5,7 @@
         <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1>VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
         <div class="col-xs-12 col-md-8">
           <div class="row pl-3 d-flex justify-content-around">
-            <div class="col-7 img-about size border-r ma-w mt-1 mb-2"><h1>About Page</h1></div>
+            <div class="col-7 img-about size border-r ma-w mt-1 mb-2"></div>
             <div class="col-5 color3 size border-r ma-w mt-1 mb-2"></div>
             <div class="col-5 color4 size border-r ma-w mt-3"></div>
             <div class="col-7 size img-work border-r ma-w mt-3"><h3 class="work-text" hidden>Find More Here</h3></div>
@@ -41,7 +41,7 @@ export default {
   height: 42rem;
 }
 .img-about {
-  background: url("../assets/pexels-photo-1368495.jpeg") no-repeat;
+  background: url("../assets/about2.png") no-repeat;
   background-size: cover;
 }
 .img-work {
