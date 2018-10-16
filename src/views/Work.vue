@@ -2,39 +2,28 @@
   <div class="work container">
     <div class="row">
       <div class="col-4">
-        <div class="color3 size border-r d-flex justify-content-around align-items-center">
-          <button class="btn btn-sm">Code</button>
-          <button class="btn btn-sm">Page</button>
-          <button class="btn btn-sm">RunThrough</button>
+        <div class="color3 d-flex justify-content-around align-items-center">
+          <img src="../assets/musicVue.png" alt="" class="img-fluid border-r">
         </div>
-        <p>Example Name</p>
+        <h4>Slap Game</h4>
         <p>Example Description</p>
       </div>
       <div class="col-4">
         <div class="color3 size border-r d-flex justify-content-around align-items-center">
-          <button class="btn btn-sm">Code</button>
-          <button class="btn btn-sm">Page</button>
-          <button class="btn btn-sm">RunThrough</button>
         </div>
-        <p>Example Name</p>
+        <h4>Keepr</h4>
         <p>Example Description</p>
       </div>
       <div class="col-4">
         <div class="color3 size border-r d-flex justify-content-around align-items-center">
-          <button class="btn btn-sm">Code</button>
-          <button class="btn btn-sm">Page</button>
-          <button class="btn btn-sm">RunThrough</button>
         </div>
-        <p>Example Name</p>
+        <h4>Vuesic</h4>
         <p>Example Description</p>
       </div>
       <div class="col-4">
         <div class="color3 size border-r d-flex justify-content-around align-items-center">
-          <button class="btn btn-sm">Code</button>
-          <button class="btn btn-sm">Page</button>
-          <button class="btn btn-sm">RunThrough</button>
         </div>
-        <p>Example Name</p>
+        <h4>Inspire</h4>
         <p>Example Description</p>
       </div>            
     </div>

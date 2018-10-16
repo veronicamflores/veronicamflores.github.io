@@ -13,12 +13,32 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <footer class="row color2">
-        <div class="col-6 d-flex justify-content-center"><p>&copy; BLAh BAlh BlAh</p></div>
-        <div class="col-6 d-flex justify-content-center"><p>Home | About | Work </p></div>
-      </footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="row d-flex justify-content-center">
+        <div class="col-12 d-flex justify-content-center color3 border-r mt-2 mb-2"><h1>Want to Chat? Leave  A Message!</h1></div>
+        <div class="col-5">
+          <form class="row d-flex justify-content-around">
+            <input type="text" placeholder="First Name" class="form-control col-5 mt-2 mb-2"/>
+            <input type="text" placeholder="Last Name" class="form-control col-5 mt-2 mb-2"/>
+            <input type="email" placeholder="email" class="form-control col-12 mt-2 mb-2">
+            <input type="text" placeholder="MESSAGE" class="form-control col-12 mt-2 mb-2">
+            <button class="btn btn-primary mt-2 mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
+        </div>
+        <div class="col">
+          <footer class="row color2">
+        <div class="col-6 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
+        <div class="col-6 d-flex justify-content-center align-items-center"><p><router-link class="hover" :to="{name: 'home'}">Home</router-link> | <router-link class="hover" :to="{name: 'about'}">About</router-link> | <router-link class="hover" :to="{name: 'work'}">Work</router-link> </p></div>
+      </footer></div>
+        
+      
     </div>
+      </div>
+      
   </div>
 </template>
 
@@ -76,8 +96,11 @@ export default {
 .color4 {
   background-color: #5f1854;
 }
-.ma-w {
-  max-width: 50%;
+.hover:hover {
+  color: #8b104e;
+}
+.hover {
+  color: #f8f1d3;
 }
 </style>
  
