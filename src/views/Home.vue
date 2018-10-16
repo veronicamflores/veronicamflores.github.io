@@ -5,10 +5,10 @@
         <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1>VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
         <div class="col-xs-12 col-md-8">
           <div class="row pl-3 d-flex justify-content-around">
-            <div class="col-7 img-about size border-r ma-w mt-1 mb-2"></div>
-            <div class="col-5 color3 size border-r ma-w mt-1 mb-2"></div>
-            <div class="col-5 color4 size border-r ma-w mt-3"></div>
-            <div class="col-7 size img-work border-r ma-w mt-3"><h3 class="work-text" hidden>Find More Here</h3></div>
+            <div class="col-6 img-about size border-r mt-1 mb-2"><router-link :to="{name: 'about'}"></router-link></div>
+            <div class="col-5 color3 size border-r mt-1 mb-2"></div>
+            <div class="col-5 color4 size border-r mt-3"></div>
+            <div class="col-6 size img-work border-r mt-3"><h3 class="work-text" hidden>Find More Here</h3></div>
           </div>
         </div>
       </div>
@@ -35,8 +35,7 @@ export default {
   visibility: visible;
 }
 .img-bg {
-  background: url("../assets/pancakes-food-eat-breakfast-730922.jpeg") no-repeat
-    center center;
+  background: url("../assets/chocolatePancakes.png") no-repeat center center;
   background-size: cover;
   height: 42rem;
 }
@@ -44,9 +43,17 @@ export default {
   background: url("../assets/about2.png") no-repeat;
   background-size: cover;
 }
+.img-about:hover {
+  border: 5px solid #8b104e;
+}
 .img-work {
   background: url("../assets/musicVue.png") no-repeat center center;
   background-size: cover;
+}
+.img-work:hover {
+  background: url("../assets/workpic1.png") no-repeat center center;
+  background-size: cover;
+  border: 5px solid #5f1854;
 }
 .img-round {
   border-radius: 50%;

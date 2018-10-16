@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="color2">
+  <div id="app" class="color2 container-fluid">
     <div id="nav">
-      <nav class="navbar navbar-expand-md color1">
+      <nav class="navbar navbar-expand-md color2">
         <a class="navbar-brand pr-3" href="/#/">  <img src="./assets/glamour1.png" width="150" height="150" alt="" class="img-round"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-terminal"></i></span>
@@ -44,7 +44,7 @@ export default {
   font-size: x-large;
 }
 .nav-item a {
-  color: #1abb9c;
+  color: #f8f1d3;
 }
 .nav-item a:hover {
   color: #8b104e;
