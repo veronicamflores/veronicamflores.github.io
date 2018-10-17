@@ -2,7 +2,7 @@
   <div class="home">
     <div class="container mt-3">
       <div class="row body">
-        <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1>VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
+        <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1 class="mt-5">VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
         <div class="col-xs-12 col-md-8">
           <div class="row pl-3 d-flex justify-content-around">
             <div class="col-6 img-about size border-r mt-1 mb-2"><router-link :to="{name: 'about'}"></router-link></div>
@@ -19,9 +19,9 @@
           <div class="row d-flex justify-content-center">
         <div class="col-12 d-flex justify-content-center color3 border-r mt-2 mb-2"><h1>Want to Chat? Leave  A Message!</h1></div>
         <div class="col-5">
-          <form class="row d-flex justify-content-around">
+          <form class="row d-flex justify-content-between">
             <input type="text" placeholder="First Name" class="form-control col-5 mt-2 mb-2"/>
-            <input type="text" placeholder="Last Name" class="form-control col-5 mt-2 mb-2"/>
+            <input type="text" placeholder="Last Name" class="form-control col-6 mt-2 mb-2"/>
             <input type="email" placeholder="email" class="form-control col-12 mt-2 mb-2">
             <input type="text" placeholder="MESSAGE" class="form-control col-12 mt-2 mb-2">
             <button class="btn btn-primary mt-2 mb-2">Submit</button>
@@ -30,9 +30,16 @@
       </div>
         </div>
         <div class="col">
-          <footer class="row color2">
-        <div class="col-6 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
-        <div class="col-6 d-flex justify-content-center align-items-center"><p><router-link class="hover" :to="{name: 'home'}">Home</router-link> | <router-link class="hover" :to="{name: 'about'}">About</router-link> | <router-link class="hover" :to="{name: 'work'}">Work</router-link> </p></div>
+          <footer class="row color2 mt-5">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <p><router-link class="hover" :to="{name: 'home'}">Home</router-link></p>&nbsp;
+            <p><router-link class="hover" :to="{name: 'about'}">About</router-link></p>&nbsp;
+            <p><router-link class="hover" :to="{name: 'work'}">Work</router-link></p>&nbsp;
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <h3><i class="fab fa-github"></i>&nbsp;<i class="fab fa-linkedin"></i>&nbsp;<i class="fab fa-facebook-square"></i></h3>
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
       </footer></div>
         
       
@@ -55,7 +62,7 @@ export default {
   visibility: visible;
 }
 .img-bg {
-  background: url("../assets/chocolatePancakes.png") no-repeat center center;
+  background: url("../assets/honeyPancake.jpeg") no-repeat center center;
   background-size: cover;
   height: 42rem;
 }
