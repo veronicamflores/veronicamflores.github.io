@@ -37,7 +37,7 @@
             <p><router-link class="hover" :to="{name: 'work'}">Work</router-link></p>&nbsp;
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center">
-          <h3><i class="fab fa-github"></i>&nbsp;<i class="fab fa-linkedin"></i>&nbsp;<i class="fab fa-facebook-square"></i></h3>
+          <a class="font-size" href="https://github.com/veronicamflores" target="_blank"><i class="fab fa-github"></i></a >&nbsp;<a class="font-size" href="https://www.linkedin.com/in/veronicamarieflores" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;<a class="font-size" href=""><i class="fab fa-facebook-square" target="_blank"></i></a>
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
       </footer></div>

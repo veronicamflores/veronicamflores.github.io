@@ -6,7 +6,7 @@
     </div>
     <div class="col-5">
       <h2>Hi! I'm Veronica Flores.</h2>
-      <p class="pink-border">I like to think of myself as talented and accomplished in front and back-end development. 
+      <p class="pink-border border-r p-2">I like to think of myself as talented and accomplished in front and back-end development. 
         After years of being self-taught I pursued additional education 
         in an immersive boot-camp experience finessing software development 
         skills. I'm a recent graduate with experience building full scale 

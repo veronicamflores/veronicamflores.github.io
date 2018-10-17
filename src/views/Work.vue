@@ -1,15 +1,18 @@
 <template>
   <div class="work container">
     <div class="row">
-      <div class="col-md-6 col-xs-12">
+      <!-- <div class="col-md-6 col-xs-12">
         <div class="d-flex justify-content-around align-items-center">
           <img src="../assets/musicVue.png" alt="" class="img-fluid border-r pink-border">
+        </div>
+        <div class="mt-2 mb-2 d-flex justify-content-around" >
+          <button class="btn"><a href="https://github.com/veronicamflores/checkpoint-one" target="_blank">Code</a></button>         
         </div>
         <h4>Vuesic</h4>
         <p>Created a unique music enthusiast application where users can build personalized 
           play lists pulling songs from itunesapi. Independently time boxed and assessed 
           challenges.  Utilized HTML, CSS, and Bootstrap, Vue.js</p>
-      </div>
+      </div> -->
       <div class="col-md-6 col-xs-12">
         <div class="d-flex justify-content-around align-items-center">
            <img src="../assets/slapgame.png" alt="" class="img-fluid border-r pink-border">
@@ -17,7 +20,6 @@
         <div class="mt-2 mb-2 d-flex justify-content-around" >
           <button class="btn"><a href="https://github.com/veronicamflores/checkpoint-one" target="_blank">Code</a></button>
           <button class="btn"><a href="https://veronicamflores.github.io/checkpoint-one/" target="_blank">Website</a></button>          
-          <button class="btn"><a href="https://veronicamflores.github.io/checkpoint-one/" target="_blank">RunThrough</a></button>
         </div>
         <h4>Slap Game</h4>
         <p>A game where users can compete computer generated opponents increasing 
@@ -29,18 +31,28 @@
         <div class="d-flex justify-content-around align-items-center">
            <img src="../assets/inspire.png" alt="" class="img-fluid border-r pink-border">
         </div>
+        <div class="mt-2 mb-2 d-flex justify-content-around" >
+          <button class="btn"><a href="https://github.com/veronicamflores/todo" target="_blank">Code</a></button>
+           <button class="btn"><a href="https://veronicamflores.github.io/todo/" target="_blank">Website</a></button>          
+        </div>
         <h4>Inspire</h4>
         <p>Example Description</p>
       </div>   
-      <div class="col-md-6 col-xs-12">
+      <!-- <div class="col-md-6 col-xs-12">
         <div class=" size d-flex justify-content-around align-items-center">
+        </div>
+        <div class="mt-2 mb-2 d-flex justify-content-around" >
+          <button class="btn"><a href="https://github.com/veronicamflores/checkpoint-four" target="_blank">Code</a></button>        
         </div>
         <h4>Battle Cards</h4>
         <p>Example Description</p>
-      </div> 
+      </div>  -->
       <div class="col-md-6 col-xs-12">
         <div class=" size d-flex justify-content-around align-items-center">
            <img src="../assets/kanban.png" alt="" class="img-fluid border-r pink-border">
+        </div>
+        <div class="mt-2 mb-2 d-flex justify-content-around" >
+          <button class="btn"><a href="https://github.com/veronicamflores/summer18-kanban" target="_blank">Code</a></button>        
         </div>
         <h4>Kanban</h4>
         <p>Example Description</p>
@@ -48,6 +60,9 @@
       <div class="col-md-6 col-xs-12">
         <div class=" size d-flex justify-content-around align-items-center">
            <img src="../assets/keepr.png" alt="" class="img-fluid border-r pink-border">
+        </div>
+        <div class="mt-2 mb-2 d-flex justify-content-around" >
+          <button class="btn"><a href="https://github.com/veronicamflores/keepr" target="_blank">Code</a></button>      
         </div>
         <h4>Keepr</h4>
         <p>Developed a "Pinterest" inspired application. Keepr is a social network that 
@@ -58,6 +73,10 @@
       <div class="col-md-6 col-xs-12">
         <div class=" size d-flex justify-content-around align-items-center">
            <img src="../assets/yoft.png" alt="" class="img-fluid border-r pink-border">
+        </div>
+        <div class="mt-2 mb-2 d-flex justify-content-around" >
+          <button class="btn"><a href="https://github.com/veronicamflores/capstone" target="_blank">Code</a></button>
+          <button class="btn"><a href="https://yoft.herokuapp.com/" target="_blank">Website</a></button>          
         </div>
         <h4>YOFT</h4>
         <p>Yoft" also known as Ye Olde Fitness Tracker, a personalized fitness 
