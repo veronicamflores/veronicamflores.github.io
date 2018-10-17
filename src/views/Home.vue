@@ -5,17 +5,17 @@
         <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1 class="mt-5">VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
         <div class="col-xs-12 col-md-8">
           <div class="row pl-3 d-flex justify-content-around">
-            <div class="col-6 img-about size border-r mt-1 mb-2"><router-link :to="{name: 'about'}"></router-link></div>
-            <div class="col-5 color3 size border-r mt-1 mb-2"></div>
-            <div class="col-5 color4 size border-r mt-3"></div>
-            <div class="col-6 size img-work border-r mt-3"><h3 class="work-text" hidden>Find More Here</h3></div>
+            <div class="col-md-6 col-xs-12 img-about size border-r mt-1 mb-2"><router-link :to="{name: 'about'}"></router-link></div>
+            <div class="col-md-5 col-xs-12 color3 border-r mt-1 mb-2"></div>
+            <div class="col-md-5 col-xs-12  color4 border-r mt-3"></div>
+            <div class="col-md-6 col-xs-12 size img-work border-r mt-3"><h3 class="work-text" hidden>Find More Here</h3></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container mt-3">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6 col-xs-12">
           <div class="row d-flex justify-content-center">
         <div class="col-12 d-flex justify-content-center color3 border-r mt-2 mb-2"><h1>Want to Chat? Leave  A Message!</h1></div>
         <div class="col-5">
@@ -29,7 +29,7 @@
         </div>
       </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-xs-12">
           <footer class="row color2 mt-5">
         <div class="col-12 d-flex justify-content-center align-items-center">
             <p><router-link class="hover" :to="{name: 'home'}">Home</router-link></p>&nbsp;

@@ -3,8 +3,8 @@
     <div id="nav">
       <nav class="navbar navbar-expand-md color2">
         <a class="navbar-brand pr-3" href="/#/">  <img src="./assets/glamour1.png" width="150" height="150" alt="" class="img-round"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fas fa-terminal"></i></span>
+        <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span  class="p-2"><i class="fas fa-terminal"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav mr-auto">
@@ -49,8 +49,9 @@ export default {
 .nav-item a:hover {
   color: #8b104e;
 }
-.navbar-toggler-icon {
-  color: black;
+.btn {
+  background-color: #8b104e;
+  color: #f8f1d3;
 }
 .img-round {
   border-radius: 50%;
