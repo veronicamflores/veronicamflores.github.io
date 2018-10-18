@@ -36,7 +36,7 @@
            <button class="btn"><a href="https://veronicamflores.github.io/todo/" target="_blank">Website</a></button>          
         </div>
         <h4>Inspire</h4>
-        <p>Example Description</p>
+        <!-- <p>Example Description</p> -->
       </div>   
       <!-- <div class="col-md-6 col-xs-12">
         <div class=" size d-flex justify-content-around align-items-center">
@@ -48,17 +48,19 @@
         <p>Example Description</p>
       </div>  -->
       <div class="col-md-6 col-xs-12">
-        <div class=" size d-flex justify-content-around align-items-center">
+        <div class="d-flex justify-content-around align-items-center">
            <img src="../assets/kanban.png" alt="" class="img-fluid border-r pink-border">
         </div>
         <div class="mt-2 mb-2 d-flex justify-content-around" >
           <button class="btn"><a href="https://github.com/veronicamflores/summer18-kanban" target="_blank">Code</a></button>        
         </div>
         <h4>Kanban</h4>
-        <p>Example Description</p>
+        <p>Developed a "Trello" inspired application. Kanban is an application that 
+          allows users to create board, lists, tasks and comments. Built with HTML, JavaScript, 
+          Vue.js,and C#. </p>
       </div> 
       <div class="col-md-6 col-xs-12">
-        <div class=" size d-flex justify-content-around align-items-center">
+        <div class=" d-flex justify-content-around align-items-center">
            <img src="../assets/keepr.png" alt="" class="img-fluid border-r pink-border">
         </div>
         <div class="mt-2 mb-2 d-flex justify-content-around" >
@@ -71,7 +73,7 @@
           Vue.js,and C#. Embraced design and development challenges</p>
       </div> 
       <div class="col-md-6 col-xs-12">
-        <div class=" size d-flex justify-content-around align-items-center">
+        <div class=" d-flex justify-content-around align-items-center">
            <img src="../assets/yoft.png" alt="" class="img-fluid border-r pink-border">
         </div>
         <div class="mt-2 mb-2 d-flex justify-content-around" >

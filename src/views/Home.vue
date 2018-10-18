@@ -4,7 +4,7 @@
       <div class="row body">
         <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1 class="mt-5">VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
         <div class="col-xs-12 col-md-8">
-          <div class="row pl-3 d-flex justify-content-around">
+          <div class="row d-flex justify-content-around">
             <div class="col-md-6 col-xs-12 img-about size border-r mt-1 mb-2"><router-link :to="{name: 'about'}"></router-link></div>
             <div class="col-md-5 col-xs-12 color3 border-r mt-1 mb-2"></div>
             <div class="col-md-5 col-xs-12  color4 border-r mt-3"></div>

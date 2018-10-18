@@ -1,10 +1,10 @@
 <template>
   <div class="about container">
     <div class="row d-flex">
-      <div class="col-7">
+      <div class="col-md-7 col-xs-12">
       <img src="../assets/about2.png" alt="" class="img-fluid border-r mt-2 mb-5">
     </div>
-    <div class="col-5">
+    <div class="col-md-5 col-xs-12">
       <h2>Hi! I'm Veronica Flores.</h2>
       <p class="pink-border border-r p-2">I like to think of myself as talented and accomplished in front and back-end development. 
         After years of being self-taught I pursued additional education 
