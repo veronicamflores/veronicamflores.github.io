@@ -78,8 +78,6 @@ export default {
   background-size: cover;
 }
 .img-work:hover {
-  background: url("../assets/workpic1.png") no-repeat center center;
-  background-size: cover;
   border: 5px solid #5f1854;
 }
 .img-round {
