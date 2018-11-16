@@ -5,10 +5,10 @@
         <div class="col-xs-12 col-md-4 img-bg border-r mt-1 mb-2"><h1 class="mt-5">VERONICA FLORES</h1><h3>FULLSTACK DEVELOPER</h3></div>
         <div class="col-xs-12 col-md-8">
           <div class="row d-flex justify-content-around">
-            <div class="col-md-6 col-xs-12 img-about size border-r mt-1 mb-2"><router-link :to="{name: 'about'}"></router-link></div>
+            <div class="col-md-6 col-xs-12 img-about size border-r mt-1 mb-2 d-flex align-items-end justify-content-end"><h1><router-link  class="colorFont" :to="{name: 'about'}"><i class="fas fa-chevron-circle-right"></i></router-link></h1></div>
             <div class="col-md-5 col-xs-12 color3 border-r mt-1 mb-2"></div>
             <div class="col-md-5 col-xs-12  color4 border-r mt-3"></div>
-            <div class="col-md-6 col-xs-12 size img-work border-r mt-3"><h3 class="work-text" hidden>Find More Here</h3></div>
+            <div class="col-md-6 col-xs-12 size img-work border-r mt-3"><h3 class="colorFont">To See My Work <router-link class="colorFont" :to="{name: 'work'}">CLICK HERE</router-link></h3></div>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@
             <p><router-link class="hover" :to="{name: 'work'}">Work</router-link></p>&nbsp;
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center">
-          <a class="font-size" href="https://github.com/veronicamflores" target="_blank"><i class="fab fa-github"></i></a >&nbsp;<a class="font-size" href="https://www.linkedin.com/in/veronicamarieflores" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;<a class="font-size" href=""><i class="fab fa-facebook-square" target="_blank"></i></a>
+          <a class="font-size" href="https://github.com/veronicamflores" target="_blank"><i class="fab fa-github"></i></a>&nbsp;<a class="font-size" href="https://www.linkedin.com/in/veronicamarieflores" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;<a class="font-size" href=""><i class="fab fa-facebook-square" target="_blank"></i></a>
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
     </div>
@@ -51,16 +51,12 @@ export default {
   background: url("../assets/about2.png") no-repeat;
   background-size: cover;
 }
-.img-about:hover {
-  border: 5px solid #8b104e;
-}
+
 .img-work {
   background: url("../assets/musicVue.png") no-repeat center center;
   background-size: cover;
 }
-.img-work:hover {
-  border: 5px solid #5f1854;
-}
+
 .img-round {
   border-radius: 50%;
 }
