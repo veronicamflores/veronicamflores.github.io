@@ -15,22 +15,6 @@
     </div>
     <div class="container mt-3">
       <div class="row">
-        <div class="col-md-6 col-xs-12">
-          <div class="row d-flex justify-content-center">
-        <div class="col-12 d-flex justify-content-center color3 border-r mt-2 mb-2"><h1>Want to Chat? Leave  A Message!</h1></div>
-        <div class="col-5">
-          <form class="row d-flex justify-content-between">
-            <input type="text" placeholder="First Name" class="form-control col-5 mt-2 mb-2"/>
-            <input type="text" placeholder="Last Name" class="form-control col-6 mt-2 mb-2"/>
-            <input type="email" placeholder="email" class="form-control col-12 mt-2 mb-2">
-            <input type="text" placeholder="MESSAGE" class="form-control col-12 mt-2 mb-2">
-            <button class="btn btn-primary mt-2 mb-2">Submit</button>
-          </form>
-        </div>
-      </div>
-        </div>
-        <div class="col-md-6 col-xs-12">
-          <footer class="row color2 mt-5">
         <div class="col-12 d-flex justify-content-center align-items-center">
             <p><router-link class="hover" :to="{name: 'home'}">Home</router-link></p>&nbsp;
             <p><router-link class="hover" :to="{name: 'about'}">About</router-link></p>&nbsp;
@@ -40,9 +24,6 @@
           <a class="font-size" href="https://github.com/veronicamflores" target="_blank"><i class="fab fa-github"></i></a >&nbsp;<a class="font-size" href="https://www.linkedin.com/in/veronicamarieflores" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;<a class="font-size" href=""><i class="fab fa-facebook-square" target="_blank"></i></a>
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
-      </footer></div>
-        
-      
     </div>
       </div>
       
@@ -105,6 +86,10 @@ export default {
   color: #8b104e;
 }
 .hover {
+  color: #f8f1d3;
+}
+.font-size {
+  font-size: 1.5rem;
   color: #f8f1d3;
 }
 </style>

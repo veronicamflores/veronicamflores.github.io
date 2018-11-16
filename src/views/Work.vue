@@ -1,5 +1,6 @@
 <template>
-  <div class="work container">
+  <div class="work">
+    <div class="container">
     <div class="row">
       <!-- <div class="col-md-6 col-xs-12">
         <div class="d-flex justify-content-around align-items-center">
@@ -23,8 +24,8 @@
         </div>
         <h4>Slap Game</h4>
         <p>A game where users can compete computer generated opponents increasing 
-          and decreasing their personal levels byusing various objects. Designed 
-          using HTML, CSS, and Bootstrap. Created all the personalized artwork of 
+          and decreasing their personal levels by using various objects. Designed 
+          using HTML, CSS, Bootstrap, and JavaScript. Created all the personalized artwork of 
           characters</p>
       </div>
       <div class="col-md-6 col-xs-12">
@@ -36,7 +37,9 @@
            <button class="btn"><a href="https://veronicamflores.github.io/todo/" target="_blank">Website</a></button>          
         </div>
         <h4>Inspire</h4>
-        <!-- <p>Example Description</p> -->
+        <p>Inspire is a todo list app where users can create and delete todos, along with see the weather, 
+          and get a random background image and quote. Currently working on a new version with better and more functionality.
+          Created using HTML, CSS, and JavaScript</p>
       </div>   
       <!-- <div class="col-md-6 col-xs-12">
         <div class=" size d-flex justify-content-around align-items-center">
@@ -89,6 +92,20 @@
           and Vue.js. Collaborated with peers and implemented scrum methodologies</p>
       </div>              
     </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <p><router-link class="hover" :to="{name: 'home'}">Home</router-link></p>&nbsp;
+            <p><router-link class="hover" :to="{name: 'about'}">About</router-link></p>&nbsp;
+            <p><router-link class="hover" :to="{name: 'work'}">Work</router-link></p>&nbsp;
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <a class="font-size" href="https://github.com/veronicamflores" target="_blank"><i class="fab fa-github"></i></a >&nbsp;<a class="font-size" href="https://www.linkedin.com/in/veronicamarieflores" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;<a class="font-size" href=""><i class="fab fa-facebook-square" target="_blank"></i></a>
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center"><p>&copy; 2018 Veronica Flores</p></div>
+    </div>
+      </div>
   </div>
 </template>
 <style>
