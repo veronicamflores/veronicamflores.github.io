@@ -88,5 +88,8 @@ export default {
   font-size: 1.5rem;
   color: #f8f1d3;
 }
+.colorFont {
+  color: #8b104e;
+}
 </style>
  

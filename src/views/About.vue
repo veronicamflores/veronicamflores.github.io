@@ -53,9 +53,4 @@
       </div>
   </div>
 </template>
-<style>
-.colorFont {
-  color: #8b104e;
-}
-</style>
 
