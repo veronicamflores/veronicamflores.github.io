@@ -2,18 +2,19 @@
   <div class="work">
     <div class="container">
     <div class="row">
-      <!-- <div class="col-md-6 col-xs-12">
+      <div class="col-md-6 col-xs-12">
         <div class="d-flex justify-content-around align-items-center">
           <img src="../assets/musicVue.png" alt="" class="img-fluid border-r pink-border">
         </div>
         <div class="mt-2 mb-2 d-flex justify-content-around" >
-          <button class="btn"><a href="https://github.com/veronicamflores/checkpoint-one" target="_blank">Code</a></button>         
+          <button class="btn"><a href="https://github.com/veronicamflores/itunes-api" target="_blank">Code</a></button>         
+          <button class="btn"><a href="https://veronicamflores.github.io/itunes-api/" target="_blank">Website</a></button>         
         </div>
-        <h4>Vuesic</h4>
-        <p>Created a unique music enthusiast application where users can build personalized 
-          play lists pulling songs from itunesapi. Independently time boxed and assessed 
-          challenges.  Utilized HTML, CSS, and Bootstrap, Vue.js</p>
-      </div> -->
+        <h4>Music is Fun</h4>
+        <p>Created a music enthusiast application where users search
+          for songs from the itunes api. Independently time boxed and assessed 
+          challenges.  Utilized HTML, CSS, JavaScript, and Bootstrap</p>
+      </div>
       <div class="col-md-6 col-xs-12">
         <div class="d-flex justify-content-around align-items-center">
            <img src="../assets/slapgame.png" alt="" class="img-fluid border-r pink-border">
@@ -59,8 +60,8 @@
         </div>
         <h4>Kanban</h4>
         <p>Developed a "Trello" inspired application. Kanban is an application that 
-          allows users to create board, lists, tasks and comments. Built with HTML, JavaScript, 
-          Vue.js,and C#. </p>
+          allows users to create board, lists, tasks and comments. Built with HTML, JavaScript, and
+          Vue.js. </p>
       </div> 
       <div class="col-md-6 col-xs-12">
         <div class=" d-flex justify-content-around align-items-center">
